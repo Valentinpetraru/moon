@@ -1,1 +1,48 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'PMedium';
+}
+
+a{
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: 'PRegular';
+  src: url('assets/fonts/ProductSans-Regular.woff2')
+}
+
+
+@font-face {
+  font-family:'PMedium' ;
+  src: url('assets/fonts/ProductSans-Medium.woff2')
+}
+
+
+@font-face {
+  font-family:'PBold';
+  src: url('assets/fonts/ProductSans-Bold.woff2')
+}
+
+body
+{
+  line-height: 20px;
+  background-color: #14181b;
+}
+
+::-webkit-scrollbar-track{
+  border-radius: 10px;
+  box-shadow: inset 0 0 5px #372f47;
+}
+
+::-webkit-scrollbar-thumb{
+  background: #95a1ac;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar{
+  width: 8px;
+}

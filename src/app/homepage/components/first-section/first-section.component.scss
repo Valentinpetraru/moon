@@ -1,0 +1,49 @@
+.container {
+  background-color: #1d2429;
+  background-image: url("https://flutterflow.io/images/desktop_bg_11.5x.jpg");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 140px;
+  height: 900px;
+}
+
+.heroheader
+{
+  z-index: 10;
+  max-width: 70%;
+  text-align: center;
+  position: relative;
+  margin-left: auto;
+    margin-right: auto;
+
+    h1{
+      padding-left: 0%;
+    font-size: 72px;
+    line-height: 80px;
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    margin: 0.67em 0;
+
+    span{
+      -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(132deg, #4b39ef, #ee8b60);
+    -webkit-background-clip: text
+    }
+    }
+
+    p{
+      text-align: center;
+    -webkit-text-fill-color: inherit;
+    background-clip: border-box;
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    color: #95a1ac;
+    }
+}

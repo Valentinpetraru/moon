@@ -1,0 +1,52 @@
+.container-navbar
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(20, 24, 27, .7);
+  position: fixed;
+  width: 100%;
+  padding: 25px;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  z-index: 99999;
+  backdrop-filter: blur(8px);
+}
+
+
+.links a {
+  color: white;
+}
+
+.links a:hover{
+  color: #31bfae;
+  cursor: pointer;
+}
+
+.links
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+.logo{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.left{
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-btn-blue',
@@ -6,6 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./btn-blue.component.scss']
 })
 export class BtnBlueComponent implements OnInit {
+  @Input() href!: string
+  @Input() invert!: boolean;
+  @Input() text! : string
 
   constructor() { }
 

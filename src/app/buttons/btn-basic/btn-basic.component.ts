@@ -6,9 +6,8 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./btn-basic.component.scss']
 })
 export class BtnBasicComponent implements OnInit {
- @Input() href!: string
- @Input() width!: string
- @Input() invert!: boolean;
+@Input() text!: string
+@Input() href!: string
 
 
 
@@ -16,5 +15,4 @@ export class BtnBasicComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
 }

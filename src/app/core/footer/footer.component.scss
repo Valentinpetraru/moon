@@ -1,0 +1,109 @@
+.footer-container
+{
+  z-index: 25;
+    text-align: center;
+    background-color: #1a1f24;
+    padding-top: 60px;
+    position: relative;
+    height: 100%;
+    padding-bottom: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.second-section{
+  display: flex;
+  align-items: center;
+  gap: 250px;
+  margin-bottom: 40px;
+}
+
+
+.third-section{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: -20px;
+  margin-right: -77px;
+}
+
+.socials{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: wheat;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+  gap: 22px;
+}
+
+.first-section{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+
+.title-col{
+  color: #fff;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.row{
+  color: #95a1ac;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-decoration: none;
+    display: block;
+}
+
+.desc
+{
+  color: #95a1ac;
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.logo{
+  margin-bottom: 12px;
+}
+
+a
+{
+  background-color: #262d34;
+    border-radius: 12px;
+    margin-right: 16px;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.nameclub{
+  color: white;
+  font-size: 32px;
+}
