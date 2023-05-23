@@ -9,6 +9,8 @@ import { TermsComponent } from './core/terms/terms.component';
 import { FirstSectionComponent } from './homepage/components/first-section/first-section.component';
 import { BannerComponent } from './core/banner/banner.component';
 import { FooterComponent } from './core/footer/footer.component';
+import { PayCardComponent } from './cards/pay-card/pay-card.component';
+
 
 @NgModule({
   declarations: [
@@ -19,7 +21,8 @@ import { FooterComponent } from './core/footer/footer.component';
     NavbarComponent,
     FirstSectionComponent,
     BannerComponent,
-    FooterComponent
+    FooterComponent,
+    PayCardComponent
   ],
   imports: [
     BrowserModule,
