@@ -10,8 +10,6 @@ import { FirstSectionComponent } from './homepage/components/first-section/first
 import { BannerComponent } from './core/banner/banner.component';
 import { FooterComponent } from './core/footer/footer.component';
 import { PayCardComponent } from './cards/pay-card/pay-card.component';
-
-
 @NgModule({
   declarations: [
     AppComponent,
