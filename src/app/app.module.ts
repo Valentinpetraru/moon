@@ -13,6 +13,8 @@ import { PayCardComponent } from './cards/pay-card/pay-card.component';
 import { CasestudyComponent } from './homepage/components/casestudy/casestudy.component';
 import { BusinessModelComponent } from './homepage/components/business-model/business-model.component';
 import { CardCollageComponent } from './homepage/components/business-model/components/card-collage/card-collage.component';
+import { QuoteComponent } from './homepage/components/quote/quote.component';
+import { BannerOneComponent } from './core/banner-one/banner-one.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,7 +28,9 @@ import { CardCollageComponent } from './homepage/components/business-model/compo
     PayCardComponent,
     CasestudyComponent,
     BusinessModelComponent,
-    CardCollageComponent
+    CardCollageComponent,
+    QuoteComponent,
+    BannerOneComponent
   ],
   imports: [
     BrowserModule,
