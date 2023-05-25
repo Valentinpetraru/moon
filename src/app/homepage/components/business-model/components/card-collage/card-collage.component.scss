@@ -1,0 +1,53 @@
+.cc{
+  display: grid;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 0;
+  grid-auto-columns: 1fr;
+  &__card{
+    background-color: #1a1f24;
+    border: 1px solid #323b45;
+    border-radius: 8px;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 24px 0;
+    display: flex;
+    max-width: 380px;
+
+
+
+    .title{
+      font-size: 24px;
+    line-height: 32px;
+    font-weight: bold;
+    color: #fff;
+    text-align: left;
+    margin-bottom: 10px;
+    letter-spacing: .3px;
+    }
+
+    .desc{
+      font-size: 24px;
+    line-height: 30px;
+    color: #95a1ac;
+    text-align: left;
+    margin-bottom: 30px;
+    font-family: PRegular;
+    }
+
+    .icon{
+      width: 100%;
+      vertical-align: middle;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+
+    img{
+      margin-bottom: 24px;
+    }
+    }
+}
+
+}

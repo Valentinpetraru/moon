@@ -10,6 +10,9 @@ import { FirstSectionComponent } from './homepage/components/first-section/first
 import { BannerComponent } from './core/banner/banner.component';
 import { FooterComponent } from './core/footer/footer.component';
 import { PayCardComponent } from './cards/pay-card/pay-card.component';
+import { CasestudyComponent } from './homepage/components/casestudy/casestudy.component';
+import { BusinessModelComponent } from './homepage/components/business-model/business-model.component';
+import { CardCollageComponent } from './homepage/components/business-model/components/card-collage/card-collage.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +23,10 @@ import { PayCardComponent } from './cards/pay-card/pay-card.component';
     FirstSectionComponent,
     BannerComponent,
     FooterComponent,
-    PayCardComponent
+    PayCardComponent,
+    CasestudyComponent,
+    BusinessModelComponent,
+    CardCollageComponent
   ],
   imports: [
     BrowserModule,
