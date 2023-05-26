@@ -15,6 +15,9 @@ import { BusinessModelComponent } from './homepage/components/business-model/bus
 import { CardCollageComponent } from './homepage/components/business-model/components/card-collage/card-collage.component';
 import { QuoteComponent } from './homepage/components/quote/quote.component';
 import { BannerOneComponent } from './core/banner-one/banner-one.component';
+import { AboutComponent } from './homepage/components/about/about.component';
+import { BannerTwoComponent } from './core/banner-two/banner-two.component';
+import { AboutZeroComponent } from './homepage/components/about-zero/about-zero.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,7 +33,10 @@ import { BannerOneComponent } from './core/banner-one/banner-one.component';
     BusinessModelComponent,
     CardCollageComponent,
     QuoteComponent,
-    BannerOneComponent
+    BannerOneComponent,
+    AboutComponent,
+    BannerTwoComponent,
+    AboutZeroComponent
   ],
   imports: [
     BrowserModule,
