@@ -18,6 +18,7 @@ import { BannerOneComponent } from './core/banner-one/banner-one.component';
 import { AboutComponent } from './homepage/components/about/about.component';
 import { BannerTwoComponent } from './core/banner-two/banner-two.component';
 import { AboutZeroComponent } from './homepage/components/about-zero/about-zero.component';
+import { FaqComponent } from './faq/faq.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -36,7 +37,8 @@ import { AboutZeroComponent } from './homepage/components/about-zero/about-zero.
     BannerOneComponent,
     AboutComponent,
     BannerTwoComponent,
-    AboutZeroComponent
+    AboutZeroComponent,
+    FaqComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,19 @@
+<div class="ff">
+  <div class="title"> <span>Frequently</span>   Asked Questions</div>
+<div class="desc">
+  Have questions about switching to FlutterFlow? We've got you covered!</div>
+</div>
+
+<div class="faq">
+  <div class="question" *ngFor="let item of listFaq, let  i = index">
+
+    <div class="qt">
+      <div class="qtt"> {{item.domanda}}</div>
+      <div class="btn"> DONE</div>
+     </div>
+
+    <div class="qd" >{{item.risposta}}</div>
+    <div class="divi"></div>
+  </div>
+
+</div>
