@@ -20,6 +20,8 @@ import { BannerTwoComponent } from './core/banner-two/banner-two.component';
 import { AboutZeroComponent } from './homepage/components/about-zero/about-zero.component';
 import { FaqComponent } from './faq/faq.component';
 import { FormazioneComponent } from './formazione/formazione.component';
+import { ExpertComponent } from './formazione/components/expert/expert.component';
+import { CardComponent } from './formazione/components/card/card.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -40,7 +42,9 @@ import { FormazioneComponent } from './formazione/formazione.component';
     BannerTwoComponent,
     AboutZeroComponent,
     FaqComponent,
-    FormazioneComponent
+    FormazioneComponent,
+    ExpertComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,

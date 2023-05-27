@@ -1,0 +1,26 @@
+<div class="types">
+  <div class="link" [ngClass]="selectedexp ? 'link-selected' : 'link'" (click)="select('exp')">All Experts</div>
+  <div class="link" [ngClass]="selectedtrade  ? 'link-selected' : 'link'" (click)="select('trade')">Trading</div>
+  <div class="link" [ngClass]="selectedcopy? 'link-selected' : 'link'" (click)="select('copy')">Copy Trading</div>
+  <div class="link" [ngClass]=" selecteddev ? 'link-selected' : 'link'" (click)="select('dev')">Developers</div>
+  <div class="link" [ngClass]=" selectedof ? 'link-selected' : 'link'" (click)="select('of')">Only Fans</div>
+</div>
+
+<div class="card-container">
+  <div class="cc">
+    <app-card></app-card>
+    <app-card></app-card>
+    <app-card></app-card>
+  </div>
+  <div class="cc">
+    <app-card></app-card>
+    <app-card></app-card>
+    <app-card></app-card>
+  </div>
+  <div class="cc">
+    <app-card></app-card>
+    <app-card></app-card>
+    <app-card></app-card>
+  </div>
+
+</div>
