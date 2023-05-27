@@ -1,0 +1,50 @@
+.formazione-cont{
+  min-height: 900px;
+    background-color: #1a1f24;
+    background-image: url(https://flutterflow.io/images/ent_HeroImage_v2_small2x.jpg);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 130px;
+    padding-bottom: 210px;
+    padding-right: 12%;
+}
+
+.cont{
+  display: flex;
+  flex-direction: column;
+  width: 66.66666667%;
+  padding: 4%;
+}
+
+.title{
+  font-weight: 700;
+  line-height: 86px;
+  margin-top: 0;
+    margin-bottom: 12px;
+    font-size: 72px;
+    color: #fff;
+    text-align: left;
+}
+
+.up-title{
+  text-align: left;
+    margin-bottom: 20px;
+    font-size: 24px;
+    line-height: 28px;
+    color: #31bfae;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.sub-title{
+  -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(130deg, #ee8b60, #4b39ef);
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 8px;
+    text-align: left;
+    letter-spacing: .5px;
+}
